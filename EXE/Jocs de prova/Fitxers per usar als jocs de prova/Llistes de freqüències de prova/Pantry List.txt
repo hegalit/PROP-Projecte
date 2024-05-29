@@ -1,0 +1,4 @@
+tomato 8
+potato 12
+onion 1
+lemon 3

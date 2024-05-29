@@ -1,0 +1,82 @@
+@startuml
+left to right direction
+:Usuari: as u
+package Sistema {
+	usecase "Crear Teclat" as ct
+	usecase "Editar Teclat" as edt
+	usecase "Importar Teclat" as it
+	usecase "Exportar Teclat" as ext
+	usecase "Veure Teclat" as vt
+	usecase "Esborrar Teclat" as bt
+
+	usecase "Crear Alfabet" as ca
+	usecase "Editar Alfabet" as eda
+	usecase "Importar Alfabet" as ia
+	usecase "Exportar Alfabet" as exa
+	usecase "Veure Alfabet" as va
+	usecase "Esborrar Alfabet" as ba
+
+	usecase "Crear Llistes de Freqüència" as cfp
+	usecase "Editar Llistes de Freqüència" as edfp
+	usecase "Importar Llistes de Freqüència" as ifp
+	usecase "Exportar Llistes de Freqüència" as exfp
+	usecase "Veure Llistes de Freqüència" as vfp
+	usecase "Eliminar Llistes de Freqüència" as elfp
+
+	usecase "Canviar Nom Teclat" as cnt
+	usecase "Canviar Dimensions Teclat" as cdt
+	usecase "Canviar Disposició Tecles Manualment" as cdtm
+	usecase "Canviar Disposició Tecles Automàticament" as cdta
+
+	usecase "Crear Text" as ctx
+	usecase "Editar Text" as etx
+	usecase "Importar Text" as itx
+	usecase "Exportar Text" as extx
+	usecase "Veure Text" as vtx
+	usecase "Esborrar Text" as btx
+
+	usecase "Administrar Alfabets" as AA
+	usecase "Administrar Teclats" as AT
+	usecase "Administrar Llistes de Freqüència" as ALF
+	usecase "Administrar Textos" as ATX
+}
+
+u --> AA
+u --> AT
+u --> ALF
+u --> ATX
+
+AT ..> ct : includes
+AT ..> edt : includes
+AT ..> it : includes
+AT ..> ext : includes
+AT ..> vt : includes
+AT ..> bt : includes
+
+AA ..> ca : includes
+AA ..> eda : includes
+AA ..> ia : includes
+AA ..> exa : includes
+AA ..> va : includes
+AA ..> ba : includes
+
+ALF ..> cfp : includes
+ALF ..> edfp : includes
+ALF ..> ifp : includes
+ALF ..> exfp : includes
+ALF ..> vfp : includes
+ALF ..> elfp : includes
+
+edt ..> cnt : includes
+edt ..> cdt : includes
+edt ..> cdtm : includes
+edt ..> cdta : includes
+
+ATX ..> ctx : includes
+ATX ..> etx : includes
+ATX ..> itx : includes
+ATX ..> extx : includes
+ATX ..> vtx : includes
+ATX ..> btx : includes
+
+@enduml

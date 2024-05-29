@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'edu.upc.prop.teclat'
+version = '1.0'
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+ext {
+    javaMainClass = 'edu.upc.prop.teclat.Main'
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': javaMainClass
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}

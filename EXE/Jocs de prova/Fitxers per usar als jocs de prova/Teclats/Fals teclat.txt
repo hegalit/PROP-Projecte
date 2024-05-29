@@ -1,0 +1,1 @@
+Aquest fitxer és un txt, no un tcl.

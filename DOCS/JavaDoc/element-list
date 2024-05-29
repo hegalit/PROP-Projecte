@@ -1,0 +1,15 @@
+edu.upc.prop.teclat
+edu.upc.prop.teclat.dades
+edu.upc.prop.teclat.dades.exceptions
+edu.upc.prop.teclat.domini
+edu.upc.prop.teclat.domini.exceptions
+edu.upc.prop.teclat.domini.exceptions.teclat
+edu.upc.prop.teclat.domini.generatoralgorithms
+edu.upc.prop.teclat.domini.generatoralgorithms.hillclimbing
+edu.upc.prop.teclat.domini.generatoralgorithms.hillclimbing.problems
+edu.upc.prop.teclat.domini.generatoralgorithms.qap
+edu.upc.prop.teclat.domini.generatoralgorithms.qap.branchandbound
+edu.upc.prop.teclat.domini.generatoralgorithms.qap.branchandbound.bound
+edu.upc.prop.teclat.domini.generatoralgorithms.qap.branchandbound.bound.gilmorelawler
+edu.upc.prop.teclat.presentacio
+edu.upc.prop.teclat.util

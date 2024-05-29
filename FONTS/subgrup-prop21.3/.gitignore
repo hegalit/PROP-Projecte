@@ -1,0 +1,6 @@
+.vscode
+bin
+.gradle
+.idea
+build
+/InterficiesUsuari/target/

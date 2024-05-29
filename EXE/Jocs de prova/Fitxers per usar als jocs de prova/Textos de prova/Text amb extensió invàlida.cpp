@@ -1,0 +1,1 @@
+Soc un text invàlid perquè la meva extensió no és ".txt"

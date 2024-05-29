@@ -1,0 +1,5 @@
+tomato 8
+potato 5
+lettuce 14
+onion 84
+vinegar 44
